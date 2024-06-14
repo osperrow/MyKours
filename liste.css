@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 70%;
+    position: relative;
+    margin: 15px auto;
+    text-align: center;
+
+   
+}
+form {
+	display: inline-block;
+    margin-top: 25px;
+}
+
+input{
+	padding: 10px 25px 10px 5px;
+}
+
+.btn {
+
+    margin-top: 15px;
+}
+
+#add, #show {
+	display: inline-block;
+	background-color:#d34208;
+	color:#ffffff;
+	border-radius: 5px;
+	text-align:center;
+	margin: 10px 5px;
+	padding: 10px 10px;
+    cursor: pointer;
+}
+#toDo {
+    text-align: left;
+    width: 100px;
+    margin: 0 auto;
+}
+
+#message {
+      display: none;
+      margin-top: 10px;
+      text-align: center;
+}

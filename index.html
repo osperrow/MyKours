@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="liste.css">
+    <title>Домашнее задание</title>
+</head>
+<body>
+    
+<h2>Список дел</h2>
+
+<form id="toDoList">
+	<input type="text" name="list_items" placeholder="Задание">
+</form>
+<div class="btn">
+    <div id="add">Добавить</div>
+    <div id="show">Отобразить</div>      
+</div>
+
+<form>
+    <input type="button" id="message" name="message" value="Элемент был добавлен" ></input>
+</form>
+<ol id="toDo"></ol>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="to_do_list.js"></script>
+</body>
+</html>
